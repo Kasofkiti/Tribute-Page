@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.main{
+    display: flex;
+    padding: 64px;
+    gap: 32px;
+}
+
+.left{
+    background-color: #3f3d3d;
+    text-align: center;
+    flex: 30%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-radius: 32px;
+}
+
+.tributeimg {
+    width: 300px;
+    border-radius: 16px;
+}
+
+.left > h3 {
+    color: rgb(247, 187, 113);
+    font-size: 32px;
+}
+
+.left > p {
+    font-weight: 300;
+    color: #c0c0c0;
+    margin-top: 8;
+    margin-bottom: 8;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.icons > img {
+    width: 32px;
+}
+
+.right {
+    flex: 70%;
+    background-color: #3f3d3d;
+    padding: 32px;
+    border-radius: 32px;
+}
+
+.right > h1 {
+    font-size: 32px;
+    color: rgb(247, 187, 113);
+    margin-bottom: 16px;
+    border-bottom: 2px solid #3f3d3d ;
+}
+
+form {
+    margin-top: 64px;
+}
+
+form  > h3 {
+    color: rgb(247, 187, 113);
+   margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #3f3d3d;
+}
+
+button {
+    background-color: rgb(247, 187, 113);
+    color: white;
+    height: 30px;
+    width: 400px;
+    border-radius: 8px;
+    margin-top: 32px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(242, 165, 72);
+    color: white;
+    cursor: pointer;
+}
